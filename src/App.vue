@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welsome to our URL Shortner"/>
+  <HelloWorld msg="Welcome to our URL Shortner"/>
   <input v-model="url"/>
   <input type="submit" @click="shorten()"/>
   <h2><a :href="surl">{{ surl }}</a></h2>
